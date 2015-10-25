@@ -1,0 +1,578 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>类的定义 | Swift 简介</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.2.0">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="gitbook/style.css">
+    
+    
+
+        
+    
+    
+    <link rel="next" href="./class2.html" />
+    
+    
+    <link rel="prev" href="./09-closure.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book" data-level="0.15" data-basepath="." data-revision="Sun Oct 25 2015 08:26:40 GMT+0800 (CST)">
+    
+
+<div class="book-summary">
+    <div class="book-search">
+        <input type="text" placeholder="Type to search" class="form-control" />
+    </div>
+    <ul class="summary">
+        
+        
+        
+        
+
+        
+
+        
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="./index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Swift快速入门
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="0.1" data-path="01-playground.html">
+            
+                
+                    <a href="./01-playground.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.1.</b>
+                        
+                        Playground
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.2" data-path="02-var_and_let.html">
+            
+                
+                    <a href="./02-var_and_let.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.2.</b>
+                        
+                        变量和常量
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.3" data-path="aa.html">
+            
+                
+                    <a href="./aa.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.3.</b>
+                        
+                        类型推导
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.4" data-path="06-string.html">
+            
+                
+                    <a href="./06-string.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.4.</b>
+                        
+                        字符串
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.5" data-path="03-optional.html">
+            
+                
+                    <a href="./03-optional.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.5.</b>
+                        
+                        可选类型
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.6" data-path="04-control_flow.html">
+            
+                
+                    <a href="./04-control_flow.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.6.</b>
+                        
+                        if条件分支
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.7" data-path="05-loop.html">
+            
+                
+                    <a href="./05-loop.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.7.</b>
+                        
+                        for循环
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.8" data-path="switch.html">
+            
+                
+                    <a href="./switch.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.8.</b>
+                        
+                        switch
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.9" data-path="array.html">
+            
+                
+                    <a href="./array.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.9.</b>
+                        
+                        数组
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.10" data-path="t.html">
+            
+                
+                    <a href="./t.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.10.</b>
+                        
+                        元组
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.11" data-path="07-collection.html">
+            
+                
+                    <a href="./07-collection.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.11.</b>
+                        
+                        字典
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.12" data-path="enum.html">
+            
+                
+                    <a href="./enum.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.12.</b>
+                        
+                        枚举
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.13" data-path="08-func.html">
+            
+                
+                    <a href="./08-func.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.13.</b>
+                        
+                        函数
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.14" data-path="09-closure.html">
+            
+                
+                    <a href="./09-closure.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.14.</b>
+                        
+                        闭包
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="0.15" data-path="class.html">
+            
+                
+                    <a href="./class.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.15.</b>
+                        
+                        类的定义
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.16" data-path="class2.html">
+            
+                
+                    <a href="./class2.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.16.</b>
+                        
+                        类的属性
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.17" data-path="10-init_func.html">
+            
+                
+                    <a href="./10-init_func.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.17.</b>
+                        
+                        类的构造函数
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.18" data-path="11-lazy.html">
+            
+                
+                    <a href="./11-lazy.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.18.</b>
+                        
+                        懒加载
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+        
+        <li class="divider"></li>
+        <li>
+            <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                Published with GitBook
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header">
+    <!-- Actions Left -->
+    <a href="#" class="btn pull-left toggle-summary" aria-label="Table of Contents"><i class="fa fa-align-justify"></i></a>
+    <a href="#" class="btn pull-left toggle-search" aria-label="Search"><i class="fa fa-search"></i></a>
+    
+    <div id="font-settings-wrapper" class="dropdown pull-left">
+        <a href="#" class="btn toggle-dropdown" aria-label="Font Settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+    <div class="dropdown-caret">
+        <span class="caret-outer"></span>
+        <span class="caret-inner"></span>
+    </div>
+
+    <div class="buttons">
+        <button type="button" id="reduce-font-size" class="button size-2">A</button>
+        <button type="button" id="enlarge-font-size" class="button size-2">A</button>
+    </div>
+
+    <div class="buttons font-family-list">
+        <button type="button" data-font="0" class="button">Serif</button>
+        <button type="button" data-font="1" class="button">Sans</button>
+    </div>
+
+    <div class="buttons color-theme-list">
+        <button type="button" id="color-theme-preview-0" class="button size-3" data-theme="0">White</button>
+        <button type="button" id="color-theme-preview-1" class="button size-3" data-theme="1">Sepia</button>
+        <button type="button" id="color-theme-preview-2" class="button size-3" data-theme="2">Night</button>
+    </div>
+</div>
+
+    </div>
+
+    <!-- Actions Right -->
+    
+    <div class="dropdown pull-right">
+        <a href="#" class="btn toggle-dropdown" aria-label="Share"><i class="fa fa-share-alt"></i>
+        </a>
+        <div class="dropdown-menu font-settings dropdown-left">
+            <div class="dropdown-caret">
+                <span class="caret-outer"></span>
+                <span class="caret-inner"></span>
+            </div>
+            <div class="buttons">
+                <button type="button" data-sharing="twitter" class="button">
+                    Share on Twitter
+                </button>
+                <button type="button" data-sharing="google-plus" class="button">
+                    Share on Google
+                </button>
+                <button type="button" data-sharing="facebook" class="button">
+                    Share on Facebook
+                </button>
+                <button type="button" data-sharing="weibo" class="button">
+                    Share on Weibo
+                </button>
+                <button type="button" data-sharing="instapaper" class="button">
+                    Share on Instapaper
+                </button>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <a href="#" target="_blank" class="btn pull-right google-plus-sharing-link sharing-link" data-sharing="google-plus" aria-label="Google"><i class="fa fa-google-plus"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right facebook-sharing-link sharing-link" data-sharing="facebook" aria-label="Facebook"><i class="fa fa-facebook"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right twitter-sharing-link sharing-link" data-sharing="twitter" aria-label="Twitter"><i class="fa fa-twitter"></i></a>
+    
+    
+    
+
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="./" >Swift 简介</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="%E7%B1%BB%E7%9A%84%E5%AE%9A%E4%B9%89">&#x7C7B;&#x7684;&#x5B9A;&#x4E49;</h1>
+<ul>
+<li><p>OC&#x4E2D;&#x7684;&#x7C7B;</p>
+<pre><code class="lang-swift">&#x5728;<span class="hljs-type">OC</span>&#x4E2D;&#x4E00;&#x4E2A;&#x7C7B;&#x5305;&#x6DB5;.h&#x548C;.m&#x4E24;&#x4E2A;&#x6587;&#x4EF6;
+  .h:
+      @interface &#x7C7B;&#x540D;: &#x7236;&#x7C7B;&#x540D;
+      @end
+
+  .m:
+      @implement &#x7C7B;&#x540D;
+      @end
+
+  &#x5B9E;&#x4F8B;&#x5316;&#x7C7B;:
+      &#x7C7B;&#x540D; *&#x53D8;&#x91CF;&#x540D; = [[&#x7C7B;&#x540D; alloc] <span class="hljs-keyword">init</span>];
+</code></pre>
+</li>
+<li><p>swift &#x5B9A;&#x4E49;&#x7C7B;&#x683C;&#x5F0F;</p>
+<ul>
+<li>()&#x91CC;&#x9762;&#x662F;&#x7A7A;,&#x8868;&#x793A;&#x8C03;&#x7528;&#x7C7B;&#x7684;&#x9ED8;&#x8BA4;&#x6784;&#x9020;&#x51FD;&#x6570; = [[&#x7C7B;&#x540D; alloc] init];</li>
+<li>swift&#x4E2D;&#x8BBF;&#x95EE;&#x5C5E;&#x6027;&#x901A;&#x8FC7;&#x70B9;&#x8BED;&#x6CD5;&#x6765;&#x8BBF;&#x95EE;, &#x65B9;&#x6CD5;&#x4E5F;&#x662F;&#x901A;&#x8FC7;&#x70B9;&#x8BED;&#x6CD5;&#x6765;&#x8C03;&#x7528;</li>
+<li><p>&#x7EE7;&#x627F;&#x548C;OC&#x4E00;&#x6837;,&#x901A;&#x8FC7; : &#x6765;&#x7EE7;&#x627F;, swift&#x4E5F;&#x53EA;&#x6709;&#x5355;&#x7EE7;&#x627F;</p>
+<pre><code class="lang-swift"><span class="hljs-class"><span class="hljs-keyword">class</span> &#x7C7B;&#x540D;: &#x7236;&#x7C7B;&#x540D; </span>{
+      <span class="hljs-comment">//: &#x4E00;&#x4E9B;&#x5C5E;&#x6027;</span>
+      <span class="hljs-comment">//: &#x4E00;&#x4E9B;&#x65B9;&#x6CD5;</span>
+  }
+
+  &#x5B9E;&#x4F8B;&#x5316;&#x4E00;&#x4E2A;&#x7C7B;:
+  <span class="hljs-keyword">var</span> &#x53D8;&#x91CF;&#x540D; = &#x7C7B;&#x540D;()
+
+&#x6CE8;&#x610F;:
+  1swift&#x7684;&#x7EE7;&#x627F;&#x548C;oc&#x4E00;&#x6837;&#x662F;&#x901A;&#x8FC7;:, <span class="hljs-built_in">swift</span>&#x4E5F;&#x53EA;&#x6709;&#x5355;&#x7EE7;&#x627F;
+  <span class="hljs-number">2</span>.&#x8BBF;&#x95EE;&#x7C7B;&#x7684;&#x5C5E;&#x6027;&#x548C;&#x8C03;&#x7528;&#x7C7B;&#x7684;&#x65B9;&#x6CD5;&#x90FD;&#x662F;&#x901A;&#x8FC7;.&#x6765;&#x8FDB;&#x884C;&#x7684;
+  <span class="hljs-number">3</span>.&#x8986;&#x76D6;&#x7236;&#x7C7B;&#x65B9;&#x6CD5;, &#x9700;&#x8981;&#x52A0;&#x5173;&#x952E;&#x5B57; <span class="hljs-keyword">override</span>
+</code></pre>
+</li>
+</ul>
+</li>
+<li><p>&#x5B9A;&#x4E49;<code>Person</code>&#x7C7B;:</p>
+<pre><code class="lang-swift"><span class="hljs-comment">//: &#x5B9A;&#x4E49;&#x4E00;&#x4E2A;&#x7C7B;, &#x6CA1;&#x6709;&#x7EE7;&#x627F;&#x4EFB;&#x4F55;&#x7C7B;&#x7684;&#x7C7B;,&#x79F0;&#x4E4B;&#x4E3A; &#x57FA;&#x7C7B;,&#x8D85;&#x7C7B;</span>
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Person</span>: <span class="hljs-title">NSObject</span> </span>{
+  <span class="hljs-comment">// &#x540D;&#x79F0;&#x5C5E;&#x6027;</span>
+  <span class="hljs-keyword">var</span> name = <span class="hljs-string">&quot;liudehua&quot;</span>
+  <span class="hljs-comment">// &#x5E74;&#x9F84;</span>
+  <span class="hljs-keyword">var</span> age = <span class="hljs-number">54</span>
+  <span class="hljs-comment">// &#x8EAB;&#x9AD8;</span>
+  <span class="hljs-keyword">var</span> height = <span class="hljs-number">1.78</span>
+  <span class="hljs-comment">// &#x4F53;&#x91CD;</span>
+  <span class="hljs-keyword">var</span> weight = <span class="hljs-number">70.0</span>
+  <span class="hljs-comment">// &#x65B9;&#x6CD5;</span>
+  <span class="hljs-func"><span class="hljs-keyword">func</span> <span class="hljs-title">sleep</span><span class="hljs-params">()</span></span> {
+      <span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;&#x7D2F;&#x4E86;,&#x7761;&#x89C9;&quot;</span>)
+  }
+  <span class="hljs-func"><span class="hljs-keyword">func</span> <span class="hljs-title">eat</span><span class="hljs-params">()</span></span> {
+      <span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;&#x997F;&#x4E86;,&#x5403;&#x996D;&quot;</span>)
+  }
+}
+</code></pre>
+</li>
+<li><p>&#x5B9E;&#x4F8B;&#x5316;<code>Person</code>&#x7C7B;</p>
+<pre><code class="lang-swift"><span class="hljs-comment">// &#x5B9E;&#x4F8B;&#x5316;&#x7C7B;Person</span>
+<span class="hljs-keyword">var</span> p = <span class="hljs-type">Person</span>()
+<span class="hljs-comment">// &#x8BBF;&#x95EE;&#x5C5E;&#x6027;</span>
+<span class="hljs-built_in">print</span>(p.name)
+<span class="hljs-comment">// &#x4FEE;&#x6539;&#x5C5E;&#x6027;</span>
+p.name = <span class="hljs-string">&quot;zhangsan&quot;</span>
+<span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;&#x540D;&#x79F0;&#x4FEE;&#x6539;&#x540E;:<span class="hljs-subst">\(p.name)</span>&quot;</span>)
+<span class="hljs-comment">// &#x8C03;&#x7528;&#x65B9;&#x6CD5;</span>
+p.sleep()
+</code></pre>
+</li>
+<li><p>&#x5B9A;&#x4E49;<code>Student</code>&#x7EE7;&#x627F;<code>Person</code></p>
+<pre><code class="lang-swift"><span class="hljs-comment">//: &#x7EE7;&#x627F; &#x548C;OC &#x4E00;&#x6837;&#x901A;&#x8FC7; : &#x6765;&#x5B9E;&#x73B0;&#x7EE7;&#x627F;</span>
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Student</span>: <span class="hljs-title">Person</span> </span>{
+  <span class="hljs-comment">// &#x73ED;&#x7EA7;&#x5C5E;&#x6027;</span>
+  <span class="hljs-keyword">var</span> grade = <span class="hljs-string">&quot;ios05&#x671F;&quot;</span>
+
+  <span class="hljs-comment">// &#x5B9A;&#x4E49;&#x5B66;&#x4E60;&#x65B9;&#x6CD5;</span>
+  <span class="hljs-func"><span class="hljs-keyword">func</span> <span class="hljs-title">study</span><span class="hljs-params">()</span></span> {
+      <span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;&#x5F00;&#x5F00;&#x5FC3;&#x5FC3;&#x5B66;&#x4E60;,&#x9AD8;&#x85AA;&#x5C31;&#x4E1A;&quot;</span>)
+  }
+
+  <span class="hljs-comment">// &#x8986;&#x76D6;&#x7236;&#x7C7B;&#x65B9;&#x6CD5;, &#x9700;&#x8981;&#x52A0;&#x5173;&#x952E;&#x5B57; override</span>
+  <span class="hljs-keyword">override</span> <span class="hljs-func"><span class="hljs-keyword">func</span> <span class="hljs-title">sleep</span><span class="hljs-params">()</span></span> {
+      <span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;&#x5B66;&#x4E60;&#x7D2F;&#x4E86;,&#x7761;&#x89C9;&quot;</span>)
+  }
+}
+</code></pre>
+</li>
+<li><p>&#x5B9E;&#x4F8B;&#x5316;Student </p>
+<pre><code class="lang-swift"><span class="hljs-comment">// &#x5B9E;&#x4F8B;&#x5316;Student</span>
+<span class="hljs-keyword">let</span> s = <span class="hljs-type">Student</span>()
+<span class="hljs-built_in">print</span>(s.grade)
+<span class="hljs-comment">// &#x8C03;&#x7528;Student&#x7684;sleep</span>
+s.sleep()
+</code></pre>
+</li>
+</ul>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="./09-closure.html" class="navigation navigation-prev " aria-label="Previous page: 闭包"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="./class2.html" class="navigation navigation-next " aria-label="Next page: 类的属性"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="gitbook/app.js"></script>
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"fontSettings":{"theme":null,"family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
